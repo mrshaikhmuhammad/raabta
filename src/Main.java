@@ -10,7 +10,7 @@ public class Main {
     private static Address system = new Address();
     private static ArrayList<Address> contacts = new ArrayList<>();
     public static void main(String[] args) {
-        contacts.add(new Address("192.168.223.48"));
+        contacts.add(new Address("10.10.10.10"));
 
         Server server = new Server(system, contacts);
         Broadcast broadcast = new Broadcast(name);
