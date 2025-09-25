@@ -11,7 +11,7 @@ public class Main {
     private static ArrayList<Address> contacts = new ArrayList<>();
 
     private static Server server;
-    private static Client client = new Client(new Address(name,"192.168.216.84"));
+    private static Client client = new Client(new Address(name,"192.168.0.0"));
     private static Broadcast broadcast = new Broadcast(name);
 
     @OnOpen
